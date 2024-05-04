@@ -1,0 +1,7 @@
+{
+  "name": "gryffindor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
