@@ -1,0 +1,26 @@
+/* Imports for font family */
+@font-face {
+  font-family: "Jacquard24";
+  src: url("../../assets/font/Jacquard24-Regular.ttf");
+}
+
+@font-face {
+  font-family: "harry-potter";
+  src: url("../../assets/font/HARRYP__.TTF");
+}
+
+.logo-name {
+  font-family: "harry-potter";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: large;
+}
+
+.nav-button {
+  font-family: "harry-potter" !important;
+}
+
+body.dark .dark-toolbar {
+  --ion-color-primary: #9c1500;
+}
