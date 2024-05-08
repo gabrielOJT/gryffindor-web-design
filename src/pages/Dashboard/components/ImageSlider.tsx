@@ -1,11 +1,11 @@
 import { IonButton, IonCard, IonIcon, IonImg, IonText } from "@ionic/react";
 import React, { useState } from "react";
 import { Slide } from "react-slideshow-image";
-import slide1 from "../../../assets/img/slides/Slide1.jpg";
-import slide2 from "../../../assets/img/slides/Slide2.jpg";
-import slide3 from "../../../assets/img/slides/Slide3.jpg";
-import slide4 from "../../../assets/img/slides/Slide4.jpg";
-import slide5 from "../../../assets/img/slides/Slide5.jpg";
+import slide1 from "/img/slides/Slide1.jpg";
+import slide2 from "/img/slides/Slide2.jpg";
+import slide3 from "/img/slides/Slide3.jpg";
+import slide4 from "/img/slides/Slide4.jpg";
+import slide5 from "/img/slides/Slide5.jpg";
 import { chevronBackCircle, chevronForwardCircle } from "ionicons/icons";
 import "./ImageSlider.css";
 

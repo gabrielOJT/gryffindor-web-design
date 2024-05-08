@@ -11,7 +11,7 @@ import {
 import React from "react";
 import "./More.css";
 
-import psits from "../../../assets/img/psits-logo.jpg";
+import psits from "/img/psits-logo.jpg";
 
 const More: React.FC = () => {
   return (

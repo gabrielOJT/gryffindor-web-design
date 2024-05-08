@@ -12,8 +12,7 @@ import {
   IonRow,
   IonText,
 } from "@ionic/react";
-import gryffindor from "../../../assets/img/logo-gryffindor.webp";
-import psits from "../../../assets/img/psits-logo.jpg";
+import gryffindor from "/img/logo-gryffindor.webp";
 
 import "./Home.css";
 import { arrowForwardCircleSharp } from "ionicons/icons";
