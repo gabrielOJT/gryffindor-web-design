@@ -11,7 +11,7 @@ import {
 import React from "react";
 import "./More.css";
 
-import psits from "/img/psits-logo.jpg";
+import gry from "/img/logo-gryffindor.webp";
 
 const More: React.FC = () => {
   return (
@@ -31,14 +31,14 @@ const More: React.FC = () => {
                     alignItems: "center",
                   }}
                 >
-                  <h1 className="ion-no-margin" style={{ fontWeight: "bold" }}>
-                    PSITS
-                  </h1>
+                  <h2 className="ion-no-margin" style={{ fontWeight: "bold" }}>
+                    TRAITS
+                  </h2>
                 </div>
                 <div className="flip-card-back">
                   <IonImg
-                    src={psits}
-                    alt="PSITS"
+                    src={gry}
+                    alt="GRYFFINDOR"
                     class="logo-card"
                     style={{ width: "100px" }}
                   />
@@ -64,29 +64,19 @@ const More: React.FC = () => {
               <IonCardContent>
                 <IonText color={"dark"}>
                   <p>
-                    Being leaders in innovation means being one step ahead in
-                    developing new and creative ideas, products, or solutions
-                    that impact greatly. It's about pushing boundaries, thinking
-                    outside the box and making something new and helpful.
-                    Innovation leaders take risks and accept change, knowing
-                    that progress comes from exploring new areas. These leaders
-                    are focused on market trends, customer needs, and
-                    technological advancements, and hence they identify
-                    opportunities for innovative solutions. They encourage an
-                    environment for creative thinking, teamwork, and
-                    experimentation, thereby empowering teams for exploring new
-                    possibilities. In doing so, these innovators in leadership
-                    are able to translate ideas into physical accomplishments,
-                    manage resources, and realize their plans to bring their
-                    innovations to the market. They understand the need to
-                    protect intellectual property and to have a strategic
-                    approach to commercializing and scaling their innovations.
-                    What this means is the ability to be innovative requires the
-                    source from where this hinges on, vision, creativity, and
-                    risk-taking while ensuring the ideas actually turn into
-                    realities. Ultimately, a leader's intention is that these
-                    ideas create progress and shape the future in their
-                    respective fields.
+                    The Gryffindor house emphasised the traits of courage as
+                    well as "daring, nerve, and chivalry", and thus its members
+                    were generally regarded as brave, though sometimes to the
+                    point of recklessness. Some Gryffindors had also been noted
+                    to be short-tempered. Notably, Gryffindor house contributed
+                    many members to Dumbledore's Army and the Order of the
+                    Phoenix, although this may have been because the main
+                    members made it a point not to associate with other houses.
+                    According to Phineas Nigellus Black, members of other
+                    houses, particularly Slytherin, sometimes felt that
+                    Gryffindors engaged in "pointless heroics". Another
+                    Slytherin, Severus Snape, considered many Gryffindors to be
+                    self-righteous and arrogant, with no regard for rules.
                   </p>
                 </IonText>
               </IonCardContent>
