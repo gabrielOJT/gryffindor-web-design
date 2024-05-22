@@ -58,7 +58,7 @@ const More: React.FC = () => {
             <IonCard className="card-more ion-padding ion-no-margin ion-margin-bottom">
               <IonCardHeader>
                 <IonText className="ion-text-center" color={"dark"}>
-                  <h1>What it means to be Leaders in Innovation?</h1>
+                  <h1>What are the traits of a Gryffindor?</h1>
                 </IonText>
               </IonCardHeader>
               <IonCardContent>
